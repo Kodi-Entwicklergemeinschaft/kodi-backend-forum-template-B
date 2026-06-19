@@ -53,7 +53,7 @@ Versioned API: legacy routes at the root, plus `v1/` and `v2/` (current). Outbou
 | Auth | RS256 JWT (key pair via env) — shared with the main API |
 | Push | `firebase-admin` |
 | Email | `nodemailer` + templated emails |
-| Object storage | Huawei OBS (`eSDK_Storage_OBS`) for media |
+| Object storage | Open Telekom Cloud — OBS object storage (`eSDK_Storage_OBS`) for media |
 | Realtime | Delegates to the WebsocketServer (`WEBSOCKET_SERVER_ADDR`) |
 
 ---
