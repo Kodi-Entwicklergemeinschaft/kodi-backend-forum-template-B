@@ -1,0 +1,24 @@
+# Dependencies
+/node_modules
+node_modules/
+
+# Uploads / runtime
+/images
+/services/config
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
